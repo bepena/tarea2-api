@@ -34,7 +34,7 @@ def index
 
  def article_params
    # whitelist params
-   params.permit(:title, :body)
+   params.permit(:title, :subtitle, :body)
  end
 
  def set_article
